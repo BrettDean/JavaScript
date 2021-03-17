@@ -1,7 +1,7 @@
 # ziye
 # github地址  https://github.com/6Svip120apk69
 # TG频道地址  https://t.me/ziyescript
-# TG交流群    https://t.me/joinchat/GitHubid-sjTESTAAE7XHm-q1-7Np-tF3g
+# TG交流群    https://t.me/joinchat/Dean12321AAE7XHm-q1-7Np-tF3g
 # boxjs链接   https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/ziye.boxjs.json
 
 
@@ -12,9 +12,9 @@
 
 
 
-#  以账号    GitHubid-sjTEST
-#  仓库地址  https://github.com/GitHubid-sjTEST/JavaScript 
-#  文件地址   https://raw.githubusercontent.com/GitHubid-sjTEST/JavaScript/ZIYE/Task/iboxpay.js    为例 
+#  以账号    Dean12321
+#  仓库地址  https://github.com/Dean12321/JavaScript 
+#  文件地址   https://raw.githubusercontent.com/Dean12321/JavaScript/ZIYE/Task/iboxpay.js    为例 
 
 
 # 主要替换的字符👇
@@ -22,7 +22,7 @@
 # 笑谱     //js名字
 # 0 0-15   //定时，如北京时间8到23点，设置0-15
 # XP_refreshTOKEN   //环境变量之一，47行处自行添加其他
-# GitHubid-sjTEST      //账号名
+# Dean12321      //账号名
 # JavaScript      //仓库名
 # ZIYE     //分支名
 # Task/iboxpay.js  //子文件地址
@@ -49,7 +49,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/GitHubid-sjTEST/JavaScript.git ~/JavaScript
+          git clone https://github.com/Dean12321/JavaScript.git ~/JavaScript
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
